@@ -253,6 +253,8 @@ footer {
       font-family: 'Jura', sans-serif;
       font-size: 25px;
       margin-bottom: 20px; }
+      .navigationToggle ul li a {
+        color: white; }
 
 @-webkit-keyframes move-clouds-back {
   from {
@@ -316,3 +318,15 @@ footer {
   to {
     -webkit-transform: rotate(-2160deg);
             transform: rotate(-2160deg); } }
+
+.moneyCalc {
+  width: 20%;
+  margin-left: 7%;
+  background: white;
+  -webkit-border-radius: 10%;
+          border-radius: 10%;
+  font-family: 'Jura', sans-serif; }
+  .moneyCalc input {
+    border: none;
+    height: 30px;
+    margin: 10px auto; }
